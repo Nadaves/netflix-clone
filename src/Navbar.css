@@ -1,0 +1,26 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.Nav-black {
+  background: #111;
+}
+
+.netflix-logo {
+  width: 80px;
+  object-fit: contain;
+}
+
+.profile-image {
+  margin-right: 40px;
+  width: 30px;
+  object-fit: contain;
+}
